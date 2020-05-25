@@ -1,0 +1,81 @@
+baseURL = "http://enisnazif.github.io"
+languageCode = "en-us"
+title = "Enis Nazif"
+theme = "anatole"
+
+[params]
+title = "Enis Nazif"
+author = "Enis Nazif"
+description = "Software Engineer and Musician living in London"
+profilePicture = "images/profile.jpg"
+
+
+
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/enisnazif/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/enisnazif/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:enisnazif@gmail.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Music"
+  weight = 300
+  identifier = "music"
+  url = "/music/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 300
+  identifier = "contact"
+  url = "/conatct/"
+
